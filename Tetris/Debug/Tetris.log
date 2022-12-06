@@ -1,0 +1,147 @@
+﻿  TetrisGame.cpp
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (1257). Save the file in Unicode format to prevent data loss
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\vartotojas\desktop\tetris\dependencies\glfw\include\glfw\glfw3.h(123): note: see previous definition of 'APIENTRY'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(171): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(172): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(177): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(290): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(301): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(302): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(302): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(303): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(303): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(304): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(304): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(319): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(319): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(320): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(320): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(321): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(321): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(329): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(335): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(347): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(347): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(353): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(353): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(354): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(354): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(360): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(360): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(364): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(370): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(380): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(380): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(387): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(387): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(393): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(393): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(394): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(394): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(399): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(405): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(415): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(415): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(420): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(420): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(424): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(430): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(447): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(456): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(457): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(465): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(466): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(474): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(475): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(482): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(483): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(491): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(492): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(493): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(500): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(506): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(522): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(528): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(540): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(541): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(541): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(545): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(564): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(570): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(583): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(584): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(594): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(600): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(610): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(616): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(621): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(627): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(642): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(648): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(660): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(664): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(681): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(687): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(702): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(708): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(723): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(729): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(746): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(747): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(753): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(759): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(779): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(785): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(799): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(803): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(822): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(826): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(839): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(849): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(867): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(873): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(888): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(894): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(910): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(916): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(930): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1021): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1077): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1269): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1258): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1259): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1261): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1262): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1264): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1265): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1267): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1268): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1303): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1292): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1293): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1295): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1296): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1298): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1299): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1301): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1302): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1451): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1484): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1505): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1518): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1527): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1528): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1531): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1544): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1550): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1573): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1577): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1590): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1601): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1609): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1615): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1619): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1632): warning C4018: '<': signed/unsigned mismatch
+c:\users\vartotojas\desktop\tetris\tetris\source code\tetrisgame.cpp(1643): warning C4018: '<': signed/unsigned mismatch
+  Tetris.vcxproj -> C:\Users\Vartotojas\Desktop\tetris\tetris\Tetris.exe
