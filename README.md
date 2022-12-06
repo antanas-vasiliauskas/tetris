@@ -26,7 +26,7 @@ Panevėžys
 
 [**Abstrakcijų kūrimas**](#_Toc73875053)
 
-[**Tetris" žaidimo logikos kūrimas**](#_Toc73875054)
+[**"Tetris" žaidimo logikos kūrimas**](#_Toc73875054)
 
 [**Scenų valdymo sistemos ir meniu kūrimas**](#_Toc73875055)
 
