@@ -1,10 +1,6 @@
-PANEVĖŽIO JUOZO BALČIKONIO GIMNAZIJA
+PANEVĖŽIO JUOZO BALČIKONIO GIMNAZIJA Projektinis darbas
 
-Projektinis darbas
-
-# **Žaidimo kūrimas naudojant C++**
-
-# **programavimo kalbą**
+# **Žaidimo kūrimas naudojant C++ programavimo kalbą**
 
 **Antanas Vasiliauskas IIIf**
 
@@ -18,33 +14,33 @@ Panevėžys
 
 # Turinys
 
-[**Įvadas**  **3**](#_Toc73875048)
+[**Įvadas**](#_Toc73875048)
 
-[**Darbo tikslas**  **3**](#_Toc73875049)
+[**Darbo tikslas**](#_Toc73875049)
 
-[**Naudojamos programos ir C++ bibliotekos**  **4**](#_Toc73875050)
+[**Naudojamos programos ir C++ bibliotekos**](#_Toc73875050)
 
-[**Darbo eiga**  **5**](#_Toc73875051)
+[**Darbo eiga**](#_Toc73875051)
 
-[**Projekto paruošimas ir sukonfigūravimas**  **5**](#_Toc73875052)
+[**Projekto paruošimas ir sukonfigūravimas**](#_Toc73875052)
 
-[**Abstrakcijų kūrimas**  **6**](#_Toc73875053)
+[**Abstrakcijų kūrimas**](#_Toc73875053)
 
-[„ **Tetris" žaidimo logikos kūrimas**  **8**](#_Toc73875054)
+[„ **Tetris" žaidimo logikos kūrimas**](#_Toc73875054)
 
-[**Scenų valdymo sistemos ir meniu kūrimas**  **9**](#_Toc73875055)
+[**Scenų valdymo sistemos ir meniu kūrimas**](#_Toc73875055)
 
-[**Žaidimo gerinimas**  **10**](#_Toc73875056)
+[**Žaidimo gerinimas**](#_Toc73875056)
 
-[**Autonominės programos, žaidžiančios žaidimą, kūrimas**  **11**](#_Toc73875057)
+[**Autonominės programos, žaidžiančios žaidimą, kūrimas**](#_Toc73875057)
 
-[**Tobulinimo galimybės**  **11**](#_Toc73875058)
+[**Tobulinimo galimybės**](#_Toc73875058)
 
-[**Išvados**  **11**](#_Toc73875059)
+[**Išvados**](#_Toc73875059)
 
-[**Ateities Planai**  **12**](#_Toc73875060)
+[**Ateities Planai**](#_Toc73875060)
 
-[**Informacijos šaltiniai**  **13**](#_Toc73875061)
+[**Informacijos šaltiniai**](#_Toc73875061)
 
 # Įvadas
 
@@ -68,36 +64,39 @@ Panevėžys
 
 Kurdami žaidimą neišsivertėme be šių pagalbinių programų:
 
-![](RackMultipart20221206-1-khe6h8_html_6a9329144b9094d4.jpg)
+![image](https://user-images.githubusercontent.com/118690121/205935726-6c292c85-c5ba-46c4-b619-0f609fd3b5b9.png)
 
-_pav. 1: Visual Studio logotipas_
+_pav. 1: Visual Studio_
 
 **Visual Studio 2017**
 
 - Kodo redagavimo įrankis, kuris paryškina C++ kalbos sintaksę ir rodo klaidas.
 - Palengvina programos kompiliavimo procesą, tad nereikia pačiam kompiliuoti programos per komandinę eilutę.
 
-_pav. 2: GitHub logotipas_
+![image](https://user-images.githubusercontent.com/118690121/205935776-7aabcfab-c1e1-464e-b271-8a0589adcd2f.png)
 
-**G ![](RackMultipart20221206-1-khe6h8_html_95d6e93a02b0d2e9.png) itHub**
+_pav. 2: GitHub_
+
+**GitHub**
 
 - Leidžia patikimai saugoti skirtingas programos versijas vienoje vietoje.
 - Leidžia vienu metu dirbti keliems žmonėms prie to pačio projekto ir vėliau sujungti pakeitimus.
 
-![](RackMultipart20221206-1-khe6h8_html_afcc9a1157c1f829.png)
+![image](https://user-images.githubusercontent.com/118690121/205936043-6a03a959-2673-4b4b-a107-4221a6caffb9.png)
+![image](https://user-images.githubusercontent.com/118690121/205936139-f06a9387-e91a-4bbc-a1e0-e29e390031c7.png)
 
 **OpenGL GLEW ir GLFW C++ bibliotekos**
 
 - Suteikia bazines funkcijas, tokias kaip tuščio programos lango sukūrimas, 2D figūrų braižymas nurodant RGB spalvą bei figūros viršūnių koordinates ir pan.
 _pav. 3: Projekte naudojamos bibliotekos_
-- ![](RackMultipart20221206-1-khe6h8_html_feda0ee657bc586b.png)Suteikia funkcijas, palengvinančias naudotojo klaviatūros įvesties fiksavimą.
+- Suteikia funkcijas, palengvinančias naudotojo klaviatūros įvesties fiksavimą.
 - stb\_image biblioteka leidžianti paveiksliukus paversti tekstūromis.
 
-![](RackMultipart20221206-1-khe6h8_html_8e9e7a313eefd8b6.jpg)
+![image](https://user-images.githubusercontent.com/118690121/205936191-a26927a4-2bc6-4cdb-89fc-501dc23f6728.png)
 
 **Inkscape ir Pixlr grafikos kūrimo programos**
 
-- ![](RackMultipart20221206-1-khe6h8_html_f550bcc75b759b70.png)Suteikia įrankius, leidžiančius sukurti žaidimui naudojamus paveikslėlius.
+- ![image](https://user-images.githubusercontent.com/118690121/205936219-9a28ed7d-96f5-4421-822c-c921e0d184da.png) Suteikia įrankius, leidžiančius sukurti žaidimui naudojamus paveikslėlius.
 
 _pav. 4: Grafikos kūrimo programų logotipai_
 
@@ -107,26 +106,26 @@ Visą darbo eigą galima suskirstyti į šiuos mažesnius tikslus, kuriuos teko 
 
 1. **Projekto paruošimas ir sukonfigūravimas**
 2. **Abstrakcijų kūrimas**
-3. „ **Tetris" žaidimo logikos kūrimas**
+3. **"Tetris" žaidimo logikos kūrimas**
 4. **Scenų valdymo sistemos ir meniu kūrimas**
 5. **Žaidimo gerinimas**
 6. **Autonominės programos, žaidžiančios žaidimą, kūrimas**
 
 ## Projekto paruošimas ir sukonfigūravimas
 
-Sukūrę Visual Studio projektą parsisiuntėme ir sukonfigūravome bibliotekas, skirtas darbui su OpenGL: GLFW, GLEW ir stb\_image. ![](RackMultipart20221206-1-khe6h8_html_142bfcef03ad0504.png)
+Sukūrę Visual Studio projektą parsisiuntėme ir sukonfigūravome bibliotekas, skirtas darbui su OpenGL: GLFW, GLEW ir stb\_image. ![image](https://user-images.githubusercontent.com/118690121/205936342-01d7b51d-9562-43bd-9c2c-6354acac34eb.png)
 
 _pav. 5: Išorinių bibliotekų susiejimas su projektu per Visual Studio_
 
 Teisingai sukonfigūravus projektą pavyko sukurti tuščią programos langą:
 
-![](RackMultipart20221206-1-khe6h8_html_3e6ddbd3fb97a6f0.png)
+![image](https://user-images.githubusercontent.com/118690121/205936391-7115ee9a-f323-4a79-9bde-e6e761d97be8.png)
 
 _pav. 6: Sukurtas tuščias programos langas_
 
 Taip pat, naudojant bibliotekos funkcijas, nupiešti stačiakampį programos lange:
 
-![](RackMultipart20221206-1-khe6h8_html_e5ed36592e687ca5.png)
+![image](https://user-images.githubusercontent.com/118690121/205936423-ed3712f7-2892-47eb-8a9d-1f2c7817b575.png)
 
 _pav. 7: Programos lange nupiešiamas baltas stačiakampis_
 
@@ -148,7 +147,10 @@ void SquareRemove(int square)
 
 Šių funkcijų panaudojimo pavyzdys:
 
-![](RackMultipart20221206-1-khe6h8_html_5172fbccfb7cf470.png) ![](RackMultipart20221206-1-khe6h8_html_dac24871b2b86dcd.png)
+![image](https://user-images.githubusercontent.com/118690121/205936489-eaeaa7bd-f3fa-40d2-945f-5ec50ef31fc7.png)
+
+![image](https://user-images.githubusercontent.com/118690121/205936772-d9e9177d-6b20-4d4c-82d9-fbba2392041b.png)
+
 
 _pav. 8: Sukuriamas paveiksliuko objektas su katės tekstūra naudojant abstrakcines funkcijas_
 
@@ -160,13 +162,15 @@ Turint viršuje paminėtas abstrakcijas, pagaliau galima pradėti kurti patį ž
 
 std::this\_thread::sleep\_for(std::chrono::milliseconds(50));
 
-V ![](RackMultipart20221206-1-khe6h8_html_3f1ea20814df1236.png) isi skaičiavimai ir žaidimo operacijos, kaip figūros pasukimas, vyksta skaičių kintamuosiuose. Žaidimų laukas, kaladėlių esama vieta, žaidimo greitis ir kiti parametrai apibūdinantys žaidimo būseną taip pat saugomi skaičių kintamuosiuose. Svarbiausias kintamasis – grid[] skaičių masyvas, reprezentuojantis žaidimų lauką. Jo dydis priklauso nuo žaidimo lauko ilgio ir pločio, t.y. grid[ilgis\*plotis]. Kas 50 milisekundžių gavus žaidėjo klaviatūros įvestį ir atlikus skaičiavimus, gaunamas galutinis skaičių masyvas grid[], kuris yra išvedamas į ekraną (seni kvadratėliai pašalinami) naudojant viršuje paminėtas abstrakcines funkcijas.
+Visi skaičiavimai ir žaidimo operacijos, kaip figūros pasukimas, vyksta skaičių kintamuosiuose. Žaidimų laukas, kaladėlių esama vieta, žaidimo greitis ir kiti parametrai apibūdinantys žaidimo būseną taip pat saugomi skaičių kintamuosiuose. Svarbiausias kintamasis – grid[] skaičių masyvas, reprezentuojantis žaidimų lauką. Jo dydis priklauso nuo žaidimo lauko ilgio ir pločio, t.y. grid[ilgis\*plotis]. Kas 50 milisekundžių gavus žaidėjo klaviatūros įvestį ir atlikus skaičiavimus, gaunamas galutinis skaičių masyvas grid[], kuris yra išvedamas į ekraną (seni kvadratėliai pašalinami) naudojant viršuje paminėtas abstrakcines funkcijas.
 
-![](RackMultipart20221206-1-khe6h8_html_cfcd0bfd4e87920b.png)
+![image](https://user-images.githubusercontent.com/118690121/205936852-219b5d93-cbb4-46df-b535-e1eb0b06db01.png)
 
 _pav. 9: Skaičių masyvas reprezentuojantis žaidimų lauką_
 
-![Shape6](RackMultipart20221206-1-khe6h8_html_d5a49d8bdd122758.gif)
+![image](https://user-images.githubusercontent.com/118690121/205936931-e2b34a50-0b2c-41d2-915e-773d5790f4de.png)
+
+![image](https://user-images.githubusercontent.com/118690121/205936916-43958728-ce63-4a2d-990c-0dd89e76553d.png)
 
 _pav. 10: Skaičių masyvas išvedamas į ekraną naudojant abstrakcines funkcijas_
 
@@ -184,21 +188,23 @@ _pav. 12: Skirtingos žaidimo scenos_
 
 Žaidimui reikėjo pagrindinio meniu ir žaidimo nustatymų meniu. Meniu veikimo principas labai paprastas: nupiešiama nuotrauka su visu tekstu ir paveiksliukais bei ant pasirinkto mygtuko uždedamas tuščiaviduris stačiakampis – žymeklis. Judinant jį su klaviatūros klavišais sekama, kuris mygtukas yra pažymėtas ir ant jo perkeliamas žymeklis. Paspaudus ENTER atliekama to mygtuko funkcija. Meniu galima sutikti dar dviejų tipų elementus: slankjuostes ir kintamojo užrašo mygtukus. Pastarieji veikia paprastai: ant pradinio paveiksliuko uždedama arba pašalinama vieno žodžio tekstūra. Slankjuostės veikia kitaip: jos padaromos iškerpant plotelį pradinės tekstūros ir už jos uždedant baltą stačiakampį, kuris slankioja į vieną ar kitą pusę. Taip pat yra vienas ypatingas elementas: žaidimo lauko dydžio keitimas. Jis veikia taip: uždedamas paveiksliukas, vaizduojantis visus žaidimo lauko dydžius. Ant jo uždedamas baltas stačiakampis, vaizduojantis dabartinį pasirinktą lauko dydį, ir skaičiukai šonuose, rodantys tikslias jo reikšmes. Pagrindiniame meniu galima pasirinkti eiti į nustatymus, žaisti žaidimą ar išeiti iš programos. Nustatymuose galima išjungti/įjungti garsą, keisti jo dydį, keisti žaidimo figūrų kritimo pradinį ir maksimalų greičius, greitėjimą. Taip pat, galima keisti žaidimo lauko dydį, pašalinti taškų rekordą, pasirinkti, kad žaidimas būtų paleistas pilno ekrano režimu. Taip pat, yra žaidimo įvadas, pasirodantis paleidus žaidimą, kuris pamoko, kaip žaisti.
 
+![image](https://user-images.githubusercontent.com/118690121/205937034-384367b5-a9a2-41bc-9fb5-5b4910808ed2.png)
+
+
 ## Žaidimo gerinimas
 
 Turint veikiantį meniu, beliko gerinti patį žaidimą. Visų pirma, pridėjome žaidimui muziką. Tuomet parašėme algoritmą, kuris automatiškai pakeistų visų elementų dydį ir išcentruotų žaidimų lauką, kad žaidėjas galėtų pasirinkti, kokį nori žaidimo lauko dydį, net ir 1000x1000.
 
-![Shape10](RackMultipart20221206-1-khe6h8_html_87f91650e7ed7226.gif)
-
+![image](https://user-images.githubusercontent.com/118690121/205937075-dc11eab3-2087-4140-9073-e9ce5f5825d7.png)
 _pav. 13: Skirtingų dydžių žaidimo laukai_
 
 Galiausiai, naudodamiesi grafikos kūrimo įrankiais padarėme geresnes žaidimo tekstūras: skirtingų spalvų kvadratėlius, žaidimų lauko linijas ir foną. Žaidimas dabar atrodo taip:
 
-![](RackMultipart20221206-1-khe6h8_html_d576f3087498e73b.png)
+![image](https://user-images.githubusercontent.com/118690121/205937246-3134bc09-a2bf-4935-8bfe-712b05235c82.png)
 
 _pav. 14: Pagerintos žaidimo grafikos_
 
-## ![Shape13](RackMultipart20221206-1-khe6h8_html_e4a6c746b710bb5f.gif)
+![image](https://user-images.githubusercontent.com/118690121/205937331-2c4b9fa2-4ffd-4479-bc23-5e2a1901c807.png)
 
 _pav. 15: Robotas Samuolis_
 
@@ -214,7 +220,7 @@ Samuolio egzistencijos tikslas – žaisti kuo geriau arba kuo blogiau žaidimą
 
 • Kuo daugiau linijų sunaikinama pastačius figūrą, tuo ėjimas geresnis.
 
-![](RackMultipart20221206-1-khe6h8_html_d9aa0757844e9bce.png)
+![image](https://user-images.githubusercontent.com/118690121/205937384-1b08bd6a-3f6a-4a26-bdfc-210fb635891e.png)
 
 _pav. 16: Į komandinę eilutę išspausdinami duomenys apie roboto pasirinktą ėjimą_
 
