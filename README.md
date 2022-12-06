@@ -245,8 +245,6 @@ Pavyko sukurti žaidimą be žaidimo variklio. Supratome, kad tai yra ilgas, var
 
 Ateityje žadame neapleisti žaidimų kūrimo, kurti kitus, originalesnius žaidimus. Darydami šį projektą įgijome naudingos patirties, padėsiančios ateityje.
 
-Šį žaidimą galima parsisiųsti iš: [https://github.com/chicken-brother/Tetris-Release](https://github.com/chicken-brother/Tetris-Release)
-
 # Informacijos šaltiniai
 
 1. [https://www.khronos.org/opengl/wiki/](https://www.khronos.org/opengl/wiki/)
