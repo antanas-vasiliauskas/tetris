@@ -85,20 +85,24 @@ _pav. 2: GitHub_
 ![image](https://user-images.githubusercontent.com/118690121/205936043-6a03a959-2673-4b4b-a107-4221a6caffb9.png)
 ![image](https://user-images.githubusercontent.com/118690121/205936139-f06a9387-e91a-4bbc-a1e0-e29e390031c7.png)
 
+_pav. 3: Projekte naudojamos bibliotekos_
+
 **OpenGL GLEW ir GLFW C++ bibliotekos**
 
 - Suteikia bazines funkcijas, tokias kaip tuščio programos lango sukūrimas, 2D figūrų braižymas nurodant RGB spalvą bei figūros viršūnių koordinates ir pan.
-_pav. 3: Projekte naudojamos bibliotekos_
+
 - Suteikia funkcijas, palengvinančias naudotojo klaviatūros įvesties fiksavimą.
 - stb\_image biblioteka leidžianti paveiksliukus paversti tekstūromis.
 
 ![image](https://user-images.githubusercontent.com/118690121/205936191-a26927a4-2bc6-4cdb-89fc-501dc23f6728.png)
+![image](https://user-images.githubusercontent.com/118690121/205936219-9a28ed7d-96f5-4421-822c-c921e0d184da.png)
+
+_pav. 4: Grafikos kūrimo programų logotipai_
 
 **Inkscape ir Pixlr grafikos kūrimo programos**
 
-- ![image](https://user-images.githubusercontent.com/118690121/205936219-9a28ed7d-96f5-4421-822c-c921e0d184da.png) Suteikia įrankius, leidžiančius sukurti žaidimui naudojamus paveikslėlius.
+-Suteikia įrankius, leidžiančius sukurti žaidimui naudojamus paveikslėlius.
 
-_pav. 4: Grafikos kūrimo programų logotipai_
 
 # Darbo eiga
 
