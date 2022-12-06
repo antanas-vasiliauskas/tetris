@@ -168,21 +168,17 @@ std::this\_thread::sleep\_for(std::chrono::milliseconds(50));
 
 Visi skaičiavimai ir žaidimo operacijos, kaip figūros pasukimas, vyksta skaičių kintamuosiuose. Žaidimų laukas, kaladėlių esama vieta, žaidimo greitis ir kiti parametrai apibūdinantys žaidimo būseną taip pat saugomi skaičių kintamuosiuose. Svarbiausias kintamasis – grid[] skaičių masyvas, reprezentuojantis žaidimų lauką. Jo dydis priklauso nuo žaidimo lauko ilgio ir pločio, t.y. grid[ilgis\*plotis]. Kas 50 milisekundžių gavus žaidėjo klaviatūros įvestį ir atlikus skaičiavimus, gaunamas galutinis skaičių masyvas grid[], kuris yra išvedamas į ekraną (seni kvadratėliai pašalinami) naudojant viršuje paminėtas abstrakcines funkcijas.
 
-![image](https://user-images.githubusercontent.com/118690121/205936852-219b5d93-cbb4-46df-b535-e1eb0b06db01.png)
 
-_pav. 9: Skaičių masyvas reprezentuojantis žaidimų lauką_
 
-![image](https://user-images.githubusercontent.com/118690121/205936931-e2b34a50-0b2c-41d2-915e-773d5790f4de.png)
 
-![image](https://user-images.githubusercontent.com/118690121/205936916-43958728-ce63-4a2d-990c-0dd89e76553d.png)
 
-_pav. 10: Skaičių masyvas išvedamas į ekraną naudojant abstrakcines funkcijas_
+![image](https://user-images.githubusercontent.com/118690121/205936852-219b5d93-cbb4-46df-b535-e1eb0b06db01.png) ![image](https://user-images.githubusercontent.com/118690121/205936931-e2b34a50-0b2c-41d2-915e-773d5790f4de.png) ![image](https://user-images.githubusercontent.com/118690121/205936916-43958728-ce63-4a2d-990c-0dd89e76553d.png)
+
+_pav. 9: Skaičių masyvas reprezentuojantis žaidimų lauką_ _pav. 10: Skaičių masyvas išvedamas į ekraną naudojant abstrakcines funkcijas_
+
+
 
 Naudojant šitą techniką, galiausiai sukūrėme pirminę žaidimo versiją.
-
-![](RackMultipart20221206-1-khe6h8_html_6ba2544434953bab.gif)
-
-_pav. 11: Pirminė žaidimo versija_
 
 ## Scenų valdymo sistemos ir meniu kūrimas
 
